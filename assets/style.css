@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 15%;
+    width: 70%;
+}
+
+header{
+    background-image: url(./img/chart-graph-business-finance.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+.rw{
+    display: flex;
+    justify-content: space-around;
+}
+.text-white {
+    color: #fff;
+}
+
+.container ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.p-20 {
+    padding-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.bt {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.bl {
+    background-color: blue;
+}
+
+.tp {
+    background-color: transparent;
+}
+.mt-200{
+    padding-top: 200px;
+}
+.mt-30{
+    padding-top: 30px;
+}
+.bt1{
+    border: 0 solid;
+}
+.bt2{
+    border: 1px solid white;
+}
+.wd-100{
+    width: 100%;
+}
+.wd-33{
+    width: 33%;
+}
+.icon{
+    font-size: 32px;
+}
+.mg-100{
+    margin: 20px;
+}
+.mt-10{
+    padding-top: 10px;
+}
+.mt-100{
+    padding-top: 100px;
+}
